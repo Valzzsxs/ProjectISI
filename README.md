@@ -34,28 +34,24 @@ pip install -r requirements.txt
 
 ```bash
 git clone https://github.com/Valzzsxs/ProjectISI.git
-cd ProjectISI
-Instalasi dependensi Python:
+cd ProjectISI```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Membangun server Rust:
+2. Instalasi dependensi Python:
 
-bash
-Copy
-Edit
-cd server
-cargo build --release
-Penggunaan
-Menjalankan server:
+```pip install -r requirements.txt```
 
-bash
-Copy
-Edit
-./server/target/release/server
-Menjalankan GUI:
+3. Membangun server Rust:
+
+```cd server
+cargo build --release```
+
+**Penggunaan**
+
+4. Menjalankan server:
+
+```./server/target/release/server```
+
+5. Menjalankan GUI:
 
 bash
 Copy
@@ -63,15 +59,13 @@ Edit
 python gui.py
 Menjalankan pengujian:
 
-bash
-Copy
-Edit
-python test.py
-Kontribusi
+```python test.py```
+
+## Kontribusi
 Kontribusi sangat dihargai! Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori ini dan ajukan pull request. Pastikan untuk mengikuti pedoman kontribusi yang telah ditetapkan.
 
-Lisensi
+## Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
-Kontak
-Untuk pertanyaan atau saran, silakan hubungi Valzzsxs.
+## Kontak
+Untuk pertanyaan atau saran, silakan hubungi Kelompok 9.
